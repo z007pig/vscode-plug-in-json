@@ -11,12 +11,18 @@
     "Other"
   ],
   "activationEvents": [],
-  "main": "./extension.js",
+  "main": "./src/main.js",
   "contributes": {
-    "commands": [{
-      "command": "demo.helloWorld",
-      "title": "Hello World"
-    }]
+    "commands": [ 
+      {
+        "command": "demo.helloWorld",
+        "title": "Hello World"
+      },
+      {
+        "command": "demo.helloWorld1",
+        "title": "Hello World1"
+      }
+    ]
   },
   "scripts": {
     "lint": "eslint .",
