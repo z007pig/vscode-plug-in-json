@@ -2,6 +2,7 @@
   "name": "vscode-plug-in-json",
   "displayName": "vscode-plug-in-json",
   "description": "vscode-plug-in-json",
+  "publisher": "zhuyangyang",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.50.0"
