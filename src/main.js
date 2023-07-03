@@ -2,6 +2,7 @@
 // Import the module and reference it with the alias vscode in your code below
 const vscode = require('vscode');
 const message = require('./message.js');
+const webview  = require('./webview.js');
 // This method is called when your extension is activated
 // Your extension is activated the very first time the command is executed
 
@@ -26,6 +27,7 @@ function activate(context) {
 
 	context.subscriptions.push(disposable);
 	context.subscriptions.push(message);
+	context.subscriptions.push(webview);
 }
 
 // This method is called when your extension is deactivated

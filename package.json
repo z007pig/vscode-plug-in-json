@@ -21,6 +21,10 @@
       {
         "command": "demo.helloWorld1",
         "title": "Hello World1"
+      },
+      {
+        "command": "demo.webview",
+        "title": "webview"
       }
     ]
   },
