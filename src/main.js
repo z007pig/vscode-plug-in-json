@@ -3,6 +3,7 @@
 const vscode = require('vscode');
 const message = require('./message.js');
 const webview  = require('./webview.js');
+const righrmenu  = require('./righrmenu.js');
 // This method is called when your extension is activated
 // Your extension is activated the very first time the command is executed
 
@@ -25,9 +26,13 @@ function activate(context) {
 		vscode.window.showInformationMessage('Hello World from demo!');
 	});
 
+	
+
+
 	context.subscriptions.push(disposable);
 	context.subscriptions.push(message);
 	context.subscriptions.push(webview);
+	context.subscriptions.push(righrmenu);
 }
 
 // This method is called when your extension is deactivated
