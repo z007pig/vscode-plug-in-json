@@ -39,6 +39,27 @@
           "when": "explorerResourceIsFolder" 
         }
       ]
+    },
+    "viewsContainers": {
+      "activitybar": [
+          {
+              "id":"sidebar_test",
+              "title": "侧边栏测试",
+              "icon": "./img/2.svg"
+          }
+      ]
+    },
+    "views": {
+        "sidebar_test":[
+            {
+                "id":"sidebar_test_id1",
+                "name":"面板区块名称1"
+            },
+            {
+                "id":"sidebar_test_id2",
+                "name":"面板区块名称2"
+            }
+        ]
     }
   },
   "scripts": {
